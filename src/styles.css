@@ -1,0 +1,21 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  padding: 1em;
+  border: 1px solid #333;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px #666;
+  margin: 0.5em;
+  transform: translateX(100px);
+  opacity: 0;
+  transition: 150ms;
+}
+.show {
+  transform: translateX(0);
+  opacity: 1;
+}
